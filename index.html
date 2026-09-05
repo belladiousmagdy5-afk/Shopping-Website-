@@ -15,7 +15,18 @@
     <a href="products.html">المنتجات</a>
     <a href="about.html">من نحن</a>
   </nav>
+  <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+    <span></span><span></span><span></span>
+  </button>
 </header>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="mobile-drawer" id="mobileDrawer">
+  <button class="drawer-close" id="drawerClose" aria-label="إغلاق القائمة">×</button>
+  <a href="index.html" class="active">الرئيسية</a>
+  <a href="products.html">المنتجات</a>
+  <a href="about.html">من نحن</a>
+</nav>
 
 <section class="hero">
   <div>
@@ -56,5 +67,6 @@
   © 2026 Billadious M Hanna — هذا موقع تجريبي بمنتجات وهمية لأغراض العرض
 </footer>
 
+<script src="nav.js"></script>
 </body>
 </html>
